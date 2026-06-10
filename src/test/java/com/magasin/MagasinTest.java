@@ -60,4 +60,15 @@ class MagasinTest {
         assertEquals(9, app.items[0].sellIn);
         assertEquals(50, app.items[0].quality);
     }
+
+    @Test
+    void kryptoniteNeverChanges() {
+        Item[] items = new Item[] { new Item("Kryptonite", 10, 80) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(10, app.items[0].sellIn);
+        assertEquals(80, app.items[0].quality);
+    }
 }
