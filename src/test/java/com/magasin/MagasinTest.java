@@ -49,4 +49,15 @@ class MagasinTest {
         assertEquals(9, app.items[0].sellIn);
         assertEquals(21, app.items[0].quality);
     }
+
+    @Test
+    void comteQualityNeverGoesAboveFifty() {
+        Item[] items = new Item[] { new Item("Comté", 10, 50) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(50, app.items[0].quality);
+    }
 }
