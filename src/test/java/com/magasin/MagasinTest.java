@@ -104,4 +104,15 @@ class MagasinTest {
         assertEquals(4, app.items[0].sellIn);
         assertEquals(23, app.items[0].quality);
     }
+
+    @Test
+    void passVipConcertQualityDropsToZeroAfterConcert() {
+        Item[] items = new Item[] { new Item("Pass VIP Concert", 0, 20) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+    }
 }
