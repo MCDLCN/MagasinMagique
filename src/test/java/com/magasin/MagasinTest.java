@@ -38,4 +38,15 @@ class MagasinTest {
         assertEquals(9, app.items[0].sellIn);
         assertEquals(0, app.items[0].quality);
     }
+
+    @Test
+    void comteQualityIncreasesByOne() {
+        Item[] items = new Item[] { new Item("Comté", 10, 20) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(21, app.items[0].quality);
+    }
 }
