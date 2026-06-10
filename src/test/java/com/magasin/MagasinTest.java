@@ -126,4 +126,15 @@ class MagasinTest {
         assertEquals(4, app.items[0].sellIn);
         assertEquals(50, app.items[0].quality);
     }
+
+    @Test
+    void pouvoirsMagiquesQualityDecreasesTwiceAsFastAsNormalItems() {
+        Item[] items = new Item[] { new Item("Pouvoirs magiques", 10, 20) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+    }
 }
