@@ -27,4 +27,15 @@ class MagasinTest {
         assertEquals(-1, app.items[0].sellIn);
         assertEquals(18, app.items[0].quality);
     }
+
+    @Test
+    void normalItemQualityNeverGoesBelowZero() {
+        Item[] items = new Item[] { new Item("Pain", 10, 0) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(9, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+    }
 }
