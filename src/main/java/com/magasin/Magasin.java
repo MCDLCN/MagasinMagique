@@ -18,6 +18,9 @@ class Magasin {
                 case "Pass VIP Concert":
                     updatePassVipConcert(item);
                     break;
+                case "Pouvoirs magiques":
+                    updatePouvoirsMagiques(item);
+                    break;
                 default:
                     updateNormalItem(item);
                     break;
@@ -67,5 +70,14 @@ class Magasin {
 
     private void decreaseQuality(Item item, int amount) {
         item.quality = Math.max(0, item.quality - amount);
+    }
+
+    private void updatePouvoirsMagiques(Item item) {
+        decreaseQuality(item, 2);
+        item.sellIn--;
+
+        if (item.sellIn < 0) {
+            decreaseQuality(item, 2);
+        }
     }
 }
