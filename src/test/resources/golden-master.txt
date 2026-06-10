@@ -1,0 +1,210 @@
+-------- day 0 --------
+Pain, 10, 20
+Comté, 2, 0
+Kryptonite, 0, 80
+Pass VIP Concert, 15, 20
+Pass VIP Concert, 10, 49
+Pass VIP Concert, 5, 49
+-------- day 1 --------
+Pain, 9, 19
+Comté, 1, 1
+Kryptonite, 0, 80
+Pass VIP Concert, 14, 21
+Pass VIP Concert, 9, 50
+Pass VIP Concert, 4, 50
+-------- day 2 --------
+Pain, 8, 18
+Comté, 0, 2
+Kryptonite, 0, 80
+Pass VIP Concert, 13, 22
+Pass VIP Concert, 8, 50
+Pass VIP Concert, 3, 50
+-------- day 3 --------
+Pain, 7, 17
+Comté, -1, 4
+Kryptonite, 0, 80
+Pass VIP Concert, 12, 23
+Pass VIP Concert, 7, 50
+Pass VIP Concert, 2, 50
+-------- day 4 --------
+Pain, 6, 16
+Comté, -2, 6
+Kryptonite, 0, 80
+Pass VIP Concert, 11, 24
+Pass VIP Concert, 6, 50
+Pass VIP Concert, 1, 50
+-------- day 5 --------
+Pain, 5, 15
+Comté, -3, 8
+Kryptonite, 0, 80
+Pass VIP Concert, 10, 25
+Pass VIP Concert, 5, 50
+Pass VIP Concert, 0, 50
+-------- day 6 --------
+Pain, 4, 14
+Comté, -4, 10
+Kryptonite, 0, 80
+Pass VIP Concert, 9, 27
+Pass VIP Concert, 4, 50
+Pass VIP Concert, -1, 0
+-------- day 7 --------
+Pain, 3, 13
+Comté, -5, 12
+Kryptonite, 0, 80
+Pass VIP Concert, 8, 29
+Pass VIP Concert, 3, 50
+Pass VIP Concert, -2, 0
+-------- day 8 --------
+Pain, 2, 12
+Comté, -6, 14
+Kryptonite, 0, 80
+Pass VIP Concert, 7, 31
+Pass VIP Concert, 2, 50
+Pass VIP Concert, -3, 0
+-------- day 9 --------
+Pain, 1, 11
+Comté, -7, 16
+Kryptonite, 0, 80
+Pass VIP Concert, 6, 33
+Pass VIP Concert, 1, 50
+Pass VIP Concert, -4, 0
+-------- day 10 --------
+Pain, 0, 10
+Comté, -8, 18
+Kryptonite, 0, 80
+Pass VIP Concert, 5, 35
+Pass VIP Concert, 0, 50
+Pass VIP Concert, -5, 0
+-------- day 11 --------
+Pain, -1, 8
+Comté, -9, 20
+Kryptonite, 0, 80
+Pass VIP Concert, 4, 38
+Pass VIP Concert, -1, 0
+Pass VIP Concert, -6, 0
+-------- day 12 --------
+Pain, -2, 6
+Comté, -10, 22
+Kryptonite, 0, 80
+Pass VIP Concert, 3, 41
+Pass VIP Concert, -2, 0
+Pass VIP Concert, -7, 0
+-------- day 13 --------
+Pain, -3, 4
+Comté, -11, 24
+Kryptonite, 0, 80
+Pass VIP Concert, 2, 44
+Pass VIP Concert, -3, 0
+Pass VIP Concert, -8, 0
+-------- day 14 --------
+Pain, -4, 2
+Comté, -12, 26
+Kryptonite, 0, 80
+Pass VIP Concert, 1, 47
+Pass VIP Concert, -4, 0
+Pass VIP Concert, -9, 0
+-------- day 15 --------
+Pain, -5, 0
+Comté, -13, 28
+Kryptonite, 0, 80
+Pass VIP Concert, 0, 50
+Pass VIP Concert, -5, 0
+Pass VIP Concert, -10, 0
+-------- day 16 --------
+Pain, -6, 0
+Comté, -14, 30
+Kryptonite, 0, 80
+Pass VIP Concert, -1, 0
+Pass VIP Concert, -6, 0
+Pass VIP Concert, -11, 0
+-------- day 17 --------
+Pain, -7, 0
+Comté, -15, 32
+Kryptonite, 0, 80
+Pass VIP Concert, -2, 0
+Pass VIP Concert, -7, 0
+Pass VIP Concert, -12, 0
+-------- day 18 --------
+Pain, -8, 0
+Comté, -16, 34
+Kryptonite, 0, 80
+Pass VIP Concert, -3, 0
+Pass VIP Concert, -8, 0
+Pass VIP Concert, -13, 0
+-------- day 19 --------
+Pain, -9, 0
+Comté, -17, 36
+Kryptonite, 0, 80
+Pass VIP Concert, -4, 0
+Pass VIP Concert, -9, 0
+Pass VIP Concert, -14, 0
+-------- day 20 --------
+Pain, -10, 0
+Comté, -18, 38
+Kryptonite, 0, 80
+Pass VIP Concert, -5, 0
+Pass VIP Concert, -10, 0
+Pass VIP Concert, -15, 0
+-------- day 21 --------
+Pain, -11, 0
+Comté, -19, 40
+Kryptonite, 0, 80
+Pass VIP Concert, -6, 0
+Pass VIP Concert, -11, 0
+Pass VIP Concert, -16, 0
+-------- day 22 --------
+Pain, -12, 0
+Comté, -20, 42
+Kryptonite, 0, 80
+Pass VIP Concert, -7, 0
+Pass VIP Concert, -12, 0
+Pass VIP Concert, -17, 0
+-------- day 23 --------
+Pain, -13, 0
+Comté, -21, 44
+Kryptonite, 0, 80
+Pass VIP Concert, -8, 0
+Pass VIP Concert, -13, 0
+Pass VIP Concert, -18, 0
+-------- day 24 --------
+Pain, -14, 0
+Comté, -22, 46
+Kryptonite, 0, 80
+Pass VIP Concert, -9, 0
+Pass VIP Concert, -14, 0
+Pass VIP Concert, -19, 0
+-------- day 25 --------
+Pain, -15, 0
+Comté, -23, 48
+Kryptonite, 0, 80
+Pass VIP Concert, -10, 0
+Pass VIP Concert, -15, 0
+Pass VIP Concert, -20, 0
+-------- day 26 --------
+Pain, -16, 0
+Comté, -24, 50
+Kryptonite, 0, 80
+Pass VIP Concert, -11, 0
+Pass VIP Concert, -16, 0
+Pass VIP Concert, -21, 0
+-------- day 27 --------
+Pain, -17, 0
+Comté, -25, 50
+Kryptonite, 0, 80
+Pass VIP Concert, -12, 0
+Pass VIP Concert, -17, 0
+Pass VIP Concert, -22, 0
+-------- day 28 --------
+Pain, -18, 0
+Comté, -26, 50
+Kryptonite, 0, 80
+Pass VIP Concert, -13, 0
+Pass VIP Concert, -18, 0
+Pass VIP Concert, -23, 0
+-------- day 29 --------
+Pain, -19, 0
+Comté, -27, 50
+Kryptonite, 0, 80
+Pass VIP Concert, -14, 0
+Pass VIP Concert, -19, 0
+Pass VIP Concert, -24, 0
