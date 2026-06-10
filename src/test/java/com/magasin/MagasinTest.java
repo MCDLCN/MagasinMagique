@@ -16,4 +16,15 @@ class MagasinTest {
         assertEquals(9, app.items[0].sellIn);
         assertEquals(19, app.items[0].quality);
     }
+
+    @Test
+    void normalItemQualityDecreasesTwiceAsFastAfterExpiration() {
+        Item[] items = new Item[] { new Item("Pain", 0, 20) };
+
+        Magasin app = new Magasin(items);
+        app.updateQuality();
+
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(18, app.items[0].quality);
+    }
 }
